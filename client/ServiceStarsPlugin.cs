@@ -22,7 +22,7 @@ namespace ServiceStars
     [BepInDependency("com.SPT.core", BepInDependency.DependencyFlags.HardDependency)]
     public sealed class ServiceStarsPlugin : BaseUnityPlugin
     {
-        public const string Id = "local.service-stars";
+        public const string Id = "com.shane-xue.service-stars";
         internal static ServiceStarsPlugin Instance;
         private ClientData data;
         private string cachePath;

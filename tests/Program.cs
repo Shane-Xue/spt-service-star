@@ -98,6 +98,7 @@ internal static class Program
         Check(wire.Ok && wire.Protocol == 1 && wire.Totals[Gun] == 150 && wire.Acknowledged[Gun] == 103,
             "actual SPT static router dispatch / server JSON / client deserializer");
         var metadata = new Metadata();
+        Check(metadata.ModGuid == "com.shane-xue.service-stars" && metadata.Version.ToString() == "1.2.1", "publication GUID and server version");
         Check(metadata.SptVersion.IsSatisfied(new SemanticVersioning.Version("4.1.6")), "server metadata accepts installed version");
         Check(typeof(StarRouter).GetCustomAttributes().Any(t => t.GetType().Name == "Injectable"), "server router is discoverable via DI");
         Parallel.For(104, 124, n => store.Sync(Profile, Request(a, n)));

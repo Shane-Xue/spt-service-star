@@ -8,7 +8,11 @@ License: [MIT](LICENSE), copyright 2026 Shane Xue.
 
 [ServiceStars 1.2.1 — ready-to-install ZIP](releases/ServiceStars-1.2.1-SPT-4.1.6.zip)
 
-Includes the compiled client 1.2.1, compatible server 1.2.0, default configuration, installation instructions, and MIT license. This is the minimum usable baseline; it does not include the newer career-page preview.
+Includes the compiled client and server 1.2.1, default configuration, installation instructions, and MIT license. This is the minimum usable baseline; it does not include the newer career-page preview.
+
+**Mod GUID (both client and server): `com.shane-xue.service-stars`.** Enter this exact value in The Forge's Mod GUID field. The publication build replaces the earlier local-development GUID; replace both DLLs together. Existing ServiceStars statistics and pending counters use unchanged storage locations and remain available. To retain old F12 preferences, copy `BepInEx/config/local.service-stars.cfg` to `BepInEx/config/com.shane-xue.service-stars.cfg` with the game closed. Otherwise the new configuration uses defaults.
+
+Publication source tag: `v1.2.1-forge.1`. The original `v1.2.1` tag remains the pre-publication baseline. To rebuild the publication ZIP, run `build.ps1`, `test.ps1`, then `python tools/package-publication.py`; this packaging helper does not deploy anything.
 
 **最小好用版本 / 回退基线：1.2.1。** 详见 [BASELINE.md](BASELINE.md)。后续新功能只提供安装包，由用户手动安装。
 

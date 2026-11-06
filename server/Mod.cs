@@ -14,11 +14,11 @@ namespace ServiceStars.Server;
 
 public sealed record Metadata : IModMetadata
 {
-    public string ModGuid { get; init; } = "local.service-stars";
+    public string ModGuid { get; init; } = "com.shane-xue.service-stars";
     public string Name { get; init; } = "Service Stars";
     public string Author { get; init; } = "Local";
     public List<string>? Contributors { get; init; }
-    public SemanticVersioning.Version Version { get; init; } = new("1.2.0");
+    public SemanticVersioning.Version Version { get; init; } = new("1.2.1");
     public SemanticVersioning.Range SptVersion { get; init; } = new("~4.1.6");
     public bool HasPrepatcher { get; init; }
     public List<string>? Incompatibilities { get; init; }
