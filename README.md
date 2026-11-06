@@ -4,6 +4,12 @@ Source repository: https://github.com/Shane-Xue/spt-service-star
 
 License: [MIT](LICENSE), copyright 2026 Shane Xue.
 
+## Download / 下载
+
+[ServiceStars 1.2.1 — ready-to-install ZIP](releases/ServiceStars-1.2.1-SPT-4.1.6.zip)
+
+Includes the compiled client 1.2.1, compatible server 1.2.0, default configuration, installation instructions, and MIT license. This is the minimum usable baseline; it does not include the newer career-page preview.
+
 **最小好用版本 / 回退基线：1.2.1。** 详见 [BASELINE.md](BASELINE.md)。后续新功能只提供安装包，由用户手动安装。
 
 适用本机 SPT 4.1.6 / EFT 0.16.9.5.40743。客户端 BepInEx 插件与独立服务端模组配套使用。
