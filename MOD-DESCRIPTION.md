@@ -16,14 +16,16 @@ Each promotion displays an original bronze star in the center of the screen, acc
 - **Automatic localization:** Follows the game's language. English and Chinese are included; other languages fall back to English.
 - **Configurable promotions:** Adjust the star threshold, notification duration, screen position, and sound volume. Preview the notification without earning a kill.
 
-This is a cosmetic progression system. Stars do **not** change damage, recoil, or other weapon attributes. Tracking begins after installation; historical kills are not imported.
+In the current release, stars are cosmetic: they do **not yet** change damage, recoil, or other weapon attributes. Optional gameplay bonuses may be explored in a future release, with a configuration setting to enable or disable them. These bonuses are not currently implemented.
+
+Tracking begins after installation because EFT does not expose a complete, reliable historical kill record for each weapon that this mod can import. Existing totals therefore cannot be accurately reconstructed; Service Stars records new kills going forward.
 
 ## Compatibility
 
-- Built for **SPT 4.1.6 / EFT 0.16.9.5.40743**.
+- Built and tested on **SPT 4.1.6 / EFT 0.16.9.5.40743**.
 - Requires both the included client plugin and server mod.
 - Special mods that bypass the standard kill-statistics flow or omit the originating weapon may not be tracked correctly.
-- Fika multiplayer compatibility has not been fully tested in live raids.
+- **Fika:** Player testing in co-op sessions indicates that individual progress works: each player can see their own service-star records. Viewing a teammate's service-star records is not currently supported. This testing does not establish compatibility with every Fika version or mod combination.
 
 ## Installation
 
