@@ -4,6 +4,16 @@ Source repository: https://github.com/Shane-Xue/spt-service-star
 
 License: [MIT](LICENSE), copyright 2026 Shane Xue.
 
+## Profile binding and safe removal
+
+Service Stars does **not modify SPT's main user profile files** and does not require the mod to remain installed for a profile to load. The Forge's **Disable Profile Binding Notice** option can be enabled for this mod.
+
+- Server progress is stored separately in `user/profileData/ServiceStars/<profile-id>.json`, relative to the server directory.
+- Client counters awaiting synchronization and the display cache are stored in `BepInEx/config/ServiceStars/`.
+- The mod reads the authenticated SPT profile to identify the player, but does not write its own fields, items, quests, or progression into the main profile.
+- To uninstall, close the game and server, then remove `BepInEx/plugins/ServiceStars/` and the server's `user/mods/ServiceStars/` folder. No main-profile repair or migration is required.
+- Separate progress/cache files remain unless you delete them manually. Keep both locations to retain progress for reinstallation; they are player data and are not included in release packages.
+
 ## Download / 下载
 
 [ServiceStars 1.2.1 — ready-to-install ZIP](releases/ServiceStars-1.2.1-SPT-4.1.6.zip)
