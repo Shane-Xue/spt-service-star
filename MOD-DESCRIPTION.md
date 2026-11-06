@@ -6,6 +6,12 @@ Service Stars brings Battlefield-inspired weapon milestones to SPT. Earn kills w
 
 Each promotion displays an original bronze star in the center of the screen, accompanied by the weapon's name, your new star count, a short animation, and a subtle metallic chime.
 
+## In-game screenshot
+
+![EVOLYS earning its first Service Star with Chinese localization](https://raw.githubusercontent.com/Shane-Xue/spt-service-star/main/assets/screenshots/service-star-promotion-chinese.png)
+
+*EVOLYS earning its first Service Star, shown with Chinese localization. The notification reads “Service Star” and “Star 1.” The mod automatically follows your game's language; English is also supported.*
+
 ## Features
 
 - **Weapon-specific progression:** Track firearms, grenades, melee weapons, and standalone or underbarrel launchers separately.
