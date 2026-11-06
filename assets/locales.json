@@ -1,0 +1,16 @@
+{
+  "en": {
+    "unavailable": "Service Stars: unavailable (see log)",
+    "pending": " · sync pending",
+    "progress": "SERVICE STARS ★{0}   Kills {1}\nNext star {2}/{3}{4}",
+    "promotion": "SERVICE STAR",
+    "star_count": "STAR {0}"
+  },
+  "ch": {
+    "unavailable": "勤务之星：不可用（查看日志）",
+    "pending": " · 待同步",
+    "progress": "勤务之星 ★{0}   击杀 {1}\n下一颗星 {2}/{3}{4}",
+    "promotion": "勤务之星",
+    "star_count": "第 {0} 颗"
+  }
+}

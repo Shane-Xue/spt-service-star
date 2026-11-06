@@ -1,0 +1,9 @@
+# Service star artwork
+
+`service-star.png` is an original transparent RGBA medal generated with the built-in imagegen tool on 2026-11-06. 1254 × 1254 pixels. It is embedded in ServiceStars.Client.dll as `ServiceStars.service-star.png`; no runtime download is required.
+
+Visual research: [Battlefield 1 service-star gameplay reference](https://www.dailymotion.com/video/x6f8s27). This is a reference link only; no Battlefield texture or audio is packaged. The notification chime is synthesized by the plugin.
+
+Generation prompt:
+
+> Create a production-ready transparent PNG UI medal asset for a serious military FPS service-star promotion overlay. Inspired by the restrained early-20th-century military medal art direction of Battlefield 1. One upright five-pointed SERVICE STAR medal, face-on orthographic view, strictly symmetrical silhouette, centered, occupies 80% of a square canvas with generous transparent padding. A tactile sculpted die-struck antique bronze/brass star, NOT flat vector art. Sharp elegant long points, pronounced raised central ridges splitting each arm into two sculptural facets, fine parallel engraved rays following the arms, a narrow double beveled outer rim, slightly darker recessed inset five-point star, subtle scratches and patinated recesses, pale worn brass highlights, deep muted bronze shadows. Substantial physical thickness conveyed by bevels but front facing, upper-left soft lighting. Sophisticated historically grounded military insignia, richly detailed yet clean and recognizable at 180px. Restrained desaturated warm metal, NOT bright yellow gold, NOT a shiny plastic mobile-game reward, NOT emoji or clipart. Star only: NO ring, NO circle, NO laurel wreath, NO wings, NO ribbon, NO text, NO number, NO glow, NO particles, NO background, NO cast shadow outside medal. Genuinely transparent background. This is an original medal design, not an extracted game asset.

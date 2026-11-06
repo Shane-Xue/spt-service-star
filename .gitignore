@@ -1,0 +1,6 @@
+/artifacts/
+/dist/
+/references/
+__pycache__/
+*.user
+*.pdb
