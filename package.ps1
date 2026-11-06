@@ -13,6 +13,7 @@ $files = [ordered]@{
  'SPT_Runtime/user/mods/ServiceStars/ServiceStars.Server.dll' = (Join-Path $PSScriptRoot 'artifacts\ServiceStars.Server.dll')
  'SPT_Runtime/user/mods/ServiceStars/config.json' = (Join-Path $PSScriptRoot 'config.json')
  'ServiceStars-README.md' = (Join-Path $PSScriptRoot 'README.md')
+ 'LICENSE' = (Join-Path $PSScriptRoot 'LICENSE')
 }
 Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem

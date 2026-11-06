@@ -1,5 +1,9 @@
 # 勤务之星 / Service Stars 1.2.1
 
+Source repository: https://github.com/Shane-Xue/spt-service-star
+
+License: [MIT](LICENSE), copyright 2026 Shane Xue.
+
 **最小好用版本 / 回退基线：1.2.1。** 详见 [BASELINE.md](BASELINE.md)。后续新功能只提供安装包，由用户手动安装。
 
 适用本机 SPT 4.1.6 / EFT 0.16.9.5.40743。客户端 BepInEx 插件与独立服务端模组配套使用。
