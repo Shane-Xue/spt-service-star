@@ -60,3 +60,9 @@ To uninstall, close the game and server, then remove the client and server mod f
 **Source:** [Shane-Xue/spt-service-star](https://github.com/Shane-Xue/spt-service-star)
 
 The star artwork was generated specifically for this project using imagegen. It is used as the mod's logo and promotion medal; it is not extracted from Battlefield. The notification chime is synthesized by the plugin. This project is not affiliated with EA or DICE.
+
+## AI Disclosure
+
+This mod was developed with AI assistance for code, documentation, and troubleshooting. The star logo and promotion artwork were generated using AI.
+
+AI involvement does not guarantee correctness or compatibility. Please report bugs with relevant logs and reproduction steps so they can be investigated.
